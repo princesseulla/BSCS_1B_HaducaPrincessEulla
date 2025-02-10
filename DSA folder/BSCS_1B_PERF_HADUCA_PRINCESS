@@ -1,1 +1,64 @@
+""" let- is a statement that declares variables or it is a variables that declared with let have block 
+scope. """
+"""LET EXAMPLES: """
+#CarName = "Saab"
+#let CarName = "volvo";
 
+
+
+""" constant- its varable that cannot be redeclared and it cannot be reassigned, a JavaScript constant variables
+must be assigned a value when they declared on it is a little misleading.""" 
+""" CONSTANT EXAMPLES: """
+#const title = "title"
+#export const title = "title"
+
+
+
+""" var-its state variable that declares variable, variables declares with var and the const and let
+is quite similar when inside function."""
+#EXAMPLES OF var
+#var x = 5:
+#var y = 6:
+#var z = x + y:
+
+#references:
+"""w3schools JavaScriptlet 
+https://www.w3schools.com/js/js_let.asp
+
+w3schools JavaScriptconst
+https://www.w3schools.com/js/js_const.asp
+
+w3schools JavaScriptvar
+https://www.w3schools.com/jsref/jsref_var.asp """
+
+
+""" 2.)Concept of falsy values in javascript
+Falsy Values- It is a value that considered in a boolean context it is used in javascript to create any values to a boolean context that 
+requires to it it's such as loops."""
+
+# references :
+"""Oct,25,2024 n.d) Falsy
+https://developer.mozilla.org/en-US/docs/Glossary/Falsy
+
+#False-if false  the logstatement will never displayed.
+If we write the following:"""
+"""// bool.js
+if(false){
+    console.log("yes")
+}
+#0-it has no printed beacuse the 0 is false.
+//.bool.js 
+if (0){
+    console.loh("yes")
+}else{
+    console.log("no") 
+}
+#""- (empty string)-an empty string is evaluated as false.
+} else {
+     console.log("no") """
+}
+
+62
+#references:
+"""what is JavaScript n.d) what is JavaScript 
+https://www.educative.io/answers/what-are-falsy-values-and-truthy-in-javascript """
